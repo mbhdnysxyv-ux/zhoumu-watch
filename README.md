@@ -5,7 +5,7 @@
 > 周目现在是一个**家族**：iPhone 应用和手表应用一起打包、一起安装。
 > 所有代码的**主仓库在这里**：
 >
-> ### 👉 [mbhdnysxyv-ux/zhoumu](https://github.com/mbhdnysxyv-ux/zhoumu)
+> ### 👉 [zhoumu-app/zhoumu](https://github.com/zhoumu-app/zhoumu)
 >
 > 本仓库保留手表部分的**一份代码副本**，方便单独浏览和检索，
 > **不发布 Release**（安装包在主仓库的 Release 里，一个 IPA 同时包含 iPhone 和手表应用）。
@@ -32,7 +32,7 @@ ZhouMu.app                                  ← 装这个
     └── PlugIns/ZhouMuWatchWidget.appex     表盘复杂功能
 ```
 
-到 **[主仓库的 Release](https://github.com/mbhdnysxyv-ux/zhoumu/releases/latest)** 下载那个 IPA 就行。
+到 **[主仓库的 Release](https://github.com/zhoumu-app/zhoumu/releases/latest)** 下载那个 IPA 就行。
 
 ## 主仓库里对应的位置
 
@@ -52,7 +52,7 @@ zhoumu/
 ```
 
 > 本仓库的校验脚本是为「独立开发」时期准备的，主仓库的
-> [`Tools/verify.sh`](https://github.com/mbhdnysxyv-ux/zhoumu/blob/main/Tools/verify.sh)
+> [`Tools/verify.sh`](https://github.com/zhoumu-app/zhoumu/blob/main/Tools/verify.sh)
 > 才是现在用的那份。
 
 ## 许可证
