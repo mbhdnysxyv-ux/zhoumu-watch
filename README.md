@@ -34,6 +34,8 @@ ZhouMu.app                                  ← 装这个
 
 到 **[主仓库的 Release](https://github.com/zhoumu-app/zhoumu/releases/latest)** 下载那个 IPA 就行。
 
+> 本仓库属于 [**周目**](https://github.com/zhoumu-app) 组织。
+
 ## 主仓库里对应的位置
 
 ```
