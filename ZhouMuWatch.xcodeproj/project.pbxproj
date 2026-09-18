@@ -370,6 +370,7 @@
 				CODE_SIGN_ENTITLEMENTS = ZhouMuWatchWidget/ZhouMuWatchWidget.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ZhouMuWatchWidget-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = ZhouMu;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -394,6 +395,7 @@
 				CODE_SIGN_ENTITLEMENTS = ZhouMuWatchWidget/ZhouMuWatchWidget.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ZhouMuWatchWidget-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = ZhouMu;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (

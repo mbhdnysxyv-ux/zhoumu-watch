@@ -5,6 +5,12 @@
 这是 [周目](https://github.com/mbhdnysxyv-ux/zhoumu) 的**独立手表版**——自己一个仓库、自己管数据，
 不依赖 iPhone 应用。iPhone 版仍然在原来的仓库里。
 
+| 主界面 |
+| :---: |
+| ![主界面](Screenshots/01-week.png) |
+
+> 模拟器实拍（Apple Watch Series 11 / watchOS 26.5）。
+
 ---
 
 ## 功能
