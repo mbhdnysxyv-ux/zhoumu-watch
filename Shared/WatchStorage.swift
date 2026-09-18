@@ -9,10 +9,13 @@ enum WatchStorage {
     private static let widgetSuffix = ".widget"
 
     static var appGroupID: String {
-        let bundleID = Bundle.main.bundleIdentifier ?? "com.zhoumu.watch"
-        let appID = bundleID.hasSuffix(widgetSuffix)
-            ? String(bundleID.dropLast(widgetSuffix.count))
-            : bundleID
+        let bundleID = Bundle.main.bundleIdentifier ?? "com.zhoumu.weekdisplay"
+        var appID = bundleID
+        // 复杂功能跑在 <app>.widget 里，去掉后缀才能拿到同一个 App Group。
+        if appID.hasSuffix(widgetSuffix) { appID = String(appID.dropLast(widgetSuffix.count)) }
+        // 手表 App 的 bundle id 是 <主App>.watchkitapp，同样要剥掉。
+        let watchSuffix = ".watchkitapp"
+        if appID.hasSuffix(watchSuffix) { appID = String(appID.dropLast(watchSuffix.count)) }
         return "group." + appID
     }
 

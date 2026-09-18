@@ -110,11 +110,3 @@ struct WeekView: View {
         }
     }
 }
-
-// MARK: - 手表配色（跟 iOS 版同一套蓝）
-
-enum Palette {
-    static let accent = Color(red: 0.29, green: 0.55, blue: 1.0)        // #4C8DFF
-    static let accentSoft = Color(red: 0.29, green: 0.55, blue: 1.0).opacity(0.22)
-    static let card = Color(white: 1.0).opacity(0.08)
-}
